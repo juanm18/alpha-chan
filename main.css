@@ -1,0 +1,240 @@
+
+
+body, html{
+  background-color: black;
+}
+
+
+.credit{
+  color: white;
+  opacity: .1;
+}
+
+*{
+  color: orange;
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+img{
+  padding-top: 10%;
+  width: 55%;
+  opacity: .8;
+}
+
+
+#more_music, #less_music{
+  color: orange;
+  background-color: black;
+  border: 1px solid orange;
+  opacity: .8;
+  /*width: 10%;*/
+  font-family: 'Reenie Beanie', cursive;
+  border-radius: 5px;
+  font-size: 1.4em;
+}
+
+#more_music:hover{
+  color: black;
+  background-color: orange;
+  border-color: black;
+}
+
+#less_music:hover{
+  color: black;
+  background-color: orange;
+  border-color: black;
+
+}
+
+
+.music_title{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2.7em;
+  background-color: white;
+  cursor: pointer;
+}
+
+.contact_title {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2.7em;
+  background-color: white;
+  cursor: pointer;
+}
+
+.big_img1{
+  background-image: url('images/homepic_alpha.jpg');
+  height: 900px;
+}
+
+.big_img2{
+  background-image: url('images/nightsky.jpg');
+  height: 100%;
+
+}
+
+.big_img3{
+  background-image: url('images/footer.jpg');
+  background-color: black;
+  height: 400px;
+}
+
+.big_img1, .big_img2, .big_img3{
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact{
+  background-color: black;
+  padding-top: 10%;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+ /*<-- Videos CSS begins--> */
+/*#vid {
+  position: absolute;
+  top:-5px;
+  left:-4px;
+  height: 350px;
+  width: 620px;
+  background-color: grey;
+  border-radius: 5px;
+}*/
+
+video{
+  border-radius: 5px;
+}
+
+#videos{
+  background-color: black;
+  opacity: .9;
+  font-size: 1.8em;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+/* <-- Videos CSS ends--> */
+
+nav{
+  height: 60px;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.8em;
+  opacity: .8;
+}
+
+nav li{
+  padding: 20px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.navigation{
+  padding-top: 5px;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.songs li{
+  list-style-type: none;
+  display: block;
+
+}
+
+.songs{
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+}
+
+.list li{
+  display: inline;
+  padding: 5px;
+}
+
+footer{
+  background-color: black;
+  padding: 10px;
+  height: 50px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 12px;
+  opacity: .9;
+
+}
+
+/* Footer CSS Begins ---->*/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-ig:hover {
+     color: pink;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-sc:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #4CAF50;
+ }
+
+/* Footer CSS Ends ---->*/
+
+@media (max-width : 520px) {
+  .big_img1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+
+  .big_img3{
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+  }
+
+  #container{
+    background-color: black;
+  }
+
+  .songs li{
+    display: block;
+  }
+
+  iframe{
+    width: 90%;
+  }
+
+
+}
